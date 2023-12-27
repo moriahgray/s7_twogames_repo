@@ -16,3 +16,11 @@ Clone the repository to get started:
 1. Clone the repository:
    ```bash
    git clone https://github.com/moriahgray/s7_twogames_repo.git
+
+## How to Run
+
+Running **Two Games** is straightforward:
+
+1. Open your preferred web browser.
+2. Use the browser to navigate to the folder where you cloned the repository.
+3. Locate and open the `index.html` file in the browser.
