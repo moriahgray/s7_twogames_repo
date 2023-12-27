@@ -14,6 +14,7 @@
 Clone the repository to get started:
 
 1. Clone the repository:
+   ```bash
    git clone https://github.com/moriahgray/s7_twogames_repo.git
 
 ## How to Run
