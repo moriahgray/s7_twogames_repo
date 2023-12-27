@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="twogames.css">
+    <title>Two Games</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Moriah Gray-McCurdy</h1><br>
+        <h1>Shall We Play a Game?</h1><br>
+
+
+        <div class="tab">
+            <button class="tablinks" onclick="openGame(event, 'CoinToss')">Coin Toss</button>
+            <button class="tablinks" onclick="openGame(event, 'GuessingGame')">Guessing Game</button>
+        </div>
+
+        <div id="CoinToss" class="tabcontent">
+            <div id="result-text"></div>
+            <div id="wins">Wins = 0</div>
+            <div id="losses">Losses = 0</div>
+        </div>
+
+        <div id="GuessingGame" class="tabcontent">
+            <h1>Number Guessing Game</h1>
+            <p>Can you guess the random number between 1 and 100 in 10 tries?</p>
+
+            <form>
+                <label for="guessField">Enter a guess: </label>
+                <input type="text" id="guessField">
+            </form>
+
+
+            <p id="guessesText">Previous guesses:</p>
+            <div id="guessesContainer">
+                <span id="guessList"></span>
+            </div>
+
+            <p class="message"><span></span></p>
+
+            <button id="resetButton">Start a new game</button>
+        </div>
+
+    </div>
+
+    <script type="module" src="mergetogether.js""></script>
+
+</body>
+
+</html>
